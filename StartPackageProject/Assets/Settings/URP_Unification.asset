@@ -10,14 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bf2edee5c58d82540a51f03df9d42094, type: 3}
-  m_Name: UniversalRP
+  m_Name: URP_Unification
   m_EditorClassIdentifier: 
   k_AssetVersion: 11
   k_AssetPreviousVersion: 11
   m_RendererType: 1
   m_RendererData: {fileID: 0}
   m_RendererDataList:
-  - {fileID: 11400000, guid: 424799608f7334c24bf367e4bbfa7f9a, type: 2}
+  - {fileID: 11400000, guid: 2fcc939aa739b624bbe18e953b2f91bb, type: 2}
   m_DefaultRendererIndex: 0
   m_RequireDepthTexture: 0
   m_RequireOpaqueTexture: 0
@@ -33,16 +33,16 @@ MonoBehaviour:
   m_EnableLODCrossFade: 1
   m_LODCrossFadeDitheringType: 1
   m_ShEvalMode: 0
-  m_MainLightRenderingMode: 0
+  m_MainLightRenderingMode: 1
   m_MainLightShadowsSupported: 0
   m_MainLightShadowmapResolution: 2048
-  m_AdditionalLightsRenderingMode: 0
+  m_AdditionalLightsRenderingMode: 1
   m_AdditionalLightsPerObjectLimit: 4
   m_AdditionalLightShadowsSupported: 0
   m_AdditionalLightsShadowmapResolution: 2048
-  m_AdditionalLightsShadowResolutionTierLow: 512
-  m_AdditionalLightsShadowResolutionTierMedium: 1024
-  m_AdditionalLightsShadowResolutionTierHigh: 2048
+  m_AdditionalLightsShadowResolutionTierLow: 256
+  m_AdditionalLightsShadowResolutionTierMedium: 512
+  m_AdditionalLightsShadowResolutionTierHigh: 1024
   m_ReflectionProbeBlending: 0
   m_ReflectionProbeBoxProjection: 0
   m_ShadowDistance: 50
@@ -55,7 +55,7 @@ MonoBehaviour:
   m_ShadowNormalBias: 0
   m_AnyShadowsSupported: 1
   m_SoftShadowsSupported: 1
-  m_ConservativeEnclosingSphere: 0
+  m_ConservativeEnclosingSphere: 1
   m_NumIterationsEnclosingSphere: 64
   m_SoftShadowQuality: 1
   m_AdditionalLightsCookieResolution: 2048

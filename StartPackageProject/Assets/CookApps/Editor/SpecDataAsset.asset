@@ -12,15 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fcf9bce74484d878ca0ca8fe1db802a, type: 3}
   m_Name: SpecDataAsset
   m_EditorClassIdentifier: 
-  FilterTitle: 
-  SheetId: 
-  SheetName: 
-  SourceNamespace: 
-  SourceEnumNamespace: 
-  SourceFolder: 
+  FilterTitle: '[ProjectNew]'
+  SheetId: 1FzosnDPVnGu3Qgc_T7iFETmIzRX8v-bo3XDPu-9A7TU
+  SheetName: '[ProjectNew] TestSheet'
+  SourceNamespace: CookApps.BM.Newname.Data
+  SourceEnumNamespace: CookApps.BM.Newname.Data
+  SourceFolder: Assets/_Project/Scripts/Data/Spec
   OriginalJsonFolder: 
   JsonParser: 0
-  Obfuscator: 0
+  Obfuscator: 1
   CreateValidFile: 0
   PreBuildValid: 0
-  EncryptKey: 
+  EncryptKey: uHbpu0RlG#aXfMjx
